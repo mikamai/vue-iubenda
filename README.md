@@ -14,3 +14,5 @@ Vue.use(VueIubenda, {
   cookiePolicyId: XXXXXXX,  // Iubenda cookiePolicy id
 });
 ```
+
+For a full list of configuration options see [the official documentation](https://www.iubenda.com/en/help/1205-banner-and-prior-consent-setup-and-customization#configexample).
