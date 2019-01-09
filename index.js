@@ -1,7 +1,7 @@
 export default class VueIubenda {
   static install(_Vue, options) {
     /* eslint-disable-next-line */
-    window._iub = _iub || {};
+    window._iub = window._iub || {};
     /* eslint-disable-next-line */
     _iub.csConfiguration = options;
     const iubenda = document.createElement('script');
